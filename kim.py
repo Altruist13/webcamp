@@ -7,7 +7,7 @@ import azure
 from azure.storage.blob import BlockBlobService
 from azure.storage.blob import ContentSettings
 
-block_blob_service = BlockBlobService(account_name='hydroponicssa' , account_key='aaIPKVI21tc04BRE7DOX9XTTR3CvS8B2l987S8mJ7jdlJ7vNkJuhEqQakDWIpXcj6u9fKihB6xUxlLGspV8Zew==')
+block_blob_service = BlockBlobService(account_name='your_account_name' , account_key='your_key')
 
 class camera:
     def __init__(self,n=None,m=None):
